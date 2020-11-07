@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@800&family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@tailwind screens;
+
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-medium font-sans text-primary;
+  }
+
+  button {
+    @apply font-sans py-2 px-3;
+    border-radius: 12px;
+  }
+
+  input {
+    @apply bg-transparent;
+  }
+
+  input:focus {
+    @apply outline-none;
+  }
+}
+
+/* Custom Components */
+
+@layer components {
+  .logo {
+    @apply text-3xl;
+    font-family: "Heebo", san-serif;
+  }
+
+  .section-title {
+    @apply font-medium text-3xl;
+  }
+
+  .padded {
+    @apply px-4;
+  }
+
+  @screen md {
+    .padded {
+      @apply px-20;
+    }
+  }
+
+  @screen lg {
+    .padded {
+      @apply px-32;
+    }
+  }
+}
+
+.ourwork-card-image {
+  width: 475px;
+  height: 475px;
+}
+
+@media only screen and (max-width: 1242px) {
+  .ourwork-card-image {
+    width: 350px;
+    height: 350px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .ourwork-card-wrapper {
+    @apply flex-col;
+  }
+
+  .ourwork-card-wrapper > * {
+    margin: 0 auto 0;
+  }
+
+  .ourwork-card-wrapper > div + div {
+    margin-top: 3rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .ourwork-card-wrapper > div {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .ourwork-card-wrapper > div:nth-child(odd) {
+    @apply mt-32;
+  }
+}
