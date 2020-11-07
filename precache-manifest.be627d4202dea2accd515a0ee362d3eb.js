@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7f2ccb55db39536ed665fc57282d1463",
+    "revision": "c37e3975d025403b051758e7d94d3ce9",
     "url": "/edie/index.html"
   },
   {
