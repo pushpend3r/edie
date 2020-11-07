@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/edie/static/css/main.805dd0cd.chunk.css",
+    "main.js": "/edie/static/js/main.09e6b6fd.chunk.js",
+    "main.js.map": "/edie/static/js/main.09e6b6fd.chunk.js.map",
+    "runtime-main.js": "/edie/static/js/runtime-main.a14941e9.js",
+    "runtime-main.js.map": "/edie/static/js/runtime-main.a14941e9.js.map",
+    "static/js/2.ef701a21.chunk.js": "/edie/static/js/2.ef701a21.chunk.js",
+    "static/js/2.ef701a21.chunk.js.map": "/edie/static/js/2.ef701a21.chunk.js.map",
+    "index.html": "/edie/index.html",
+    "precache-manifest.d1b583614c10fe20310b0746d2e221a7.js": "/edie/precache-manifest.d1b583614c10fe20310b0746d2e221a7.js",
+    "service-worker.js": "/edie/service-worker.js",
+    "static/css/main.805dd0cd.chunk.css.map": "/edie/static/css/main.805dd0cd.chunk.css.map",
+    "static/js/2.ef701a21.chunk.js.LICENSE.txt": "/edie/static/js/2.ef701a21.chunk.js.LICENSE.txt",
+    "static/media/arrow_right.svg": "/edie/static/media/arrow_right.0d592fb7.svg",
+    "static/media/booking.png": "/edie/static/media/booking.033e9af2.png",
+    "static/media/code.svg": "/edie/static/media/code.45d04df8.svg",
+    "static/media/create.svg": "/edie/static/media/create.281db56d.svg",
+    "static/media/cross.svg": "/edie/static/media/cross.0614a552.svg",
+    "static/media/heroImage.jpg": "/edie/static/media/heroImage.27b98f2f.jpg",
+    "static/media/instagram.svg": "/edie/static/media/instagram.18af0d38.svg",
+    "static/media/juice-product.png": "/edie/static/media/juice-product.28fd2c81.png",
+    "static/media/linkedin.svg": "/edie/static/media/linkedin.4052ea9c.svg",
+    "static/media/menu.svg": "/edie/static/media/menu.64be4936.svg",
+    "static/media/onboard.png": "/edie/static/media/onboard.9c8d40b5.png",
+    "static/media/person1.png": "/edie/static/media/person1.db7e465e.png",
+    "static/media/person2.png": "/edie/static/media/person2.879e871d.png",
+    "static/media/person3.png": "/edie/static/media/person3.3644a4a4.png",
+    "static/media/person4.png": "/edie/static/media/person4.3e208a74.png",
+    "static/media/smarthome.jpg": "/edie/static/media/smarthome.97366ea0.jpg",
+    "static/media/storage.svg": "/edie/static/media/storage.c8654694.svg",
+    "static/media/twitter.svg": "/edie/static/media/twitter.5710b3e1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a14941e9.js",
+    "static/js/2.ef701a21.chunk.js",
+    "static/css/main.805dd0cd.chunk.css",
+    "static/js/main.09e6b6fd.chunk.js"
+  ]
+}
