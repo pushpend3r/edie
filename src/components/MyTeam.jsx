@@ -6,12 +6,17 @@ import person3 from "../assets/person3.png";
 
 const MyTeam = props => {
   return (
-    <div className="flex flex-col lg:flex-row padded lg:place-items-center space-y-10 lg:space-y-0 justify-between">
+    <div
+      className="flex flex-col lg:flex-row padded lg:place-items-center space-y-10 lg:space-y-0 justify-between"
+      data-aos="fade-up"
+    >
       <div className="w-auto lg:w-1/4 space-y-3">
         <p className="text-sm font-medium" style={{ color: "#EB5757" }}>
           Meet the team
         </p>
-        <p className="text-2xl md:text-3xl font-medium text-primary">We are chilled and a laidback team</p>
+        <p className="text-2xl md:text-3xl font-medium text-primary">
+          We are chilled and a laidback team
+        </p>
         <p className="text-secondary">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. A, quas!
         </p>

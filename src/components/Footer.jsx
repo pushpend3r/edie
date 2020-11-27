@@ -9,7 +9,7 @@ const Footer = props => {
   return (
     <footer
       className="padded py-10 space-y-20"
-      style={{ backgroundColor: "#100E1D" }}
+      style={{ backgroundColor: "#100E1D" }} data-aos="fade-up"
     >
       <div className="flex flex-col md:flex-row md:justify-between space-y-10 md:space-y-0 text-white">
         <ul className="w-auto md:w-1/4 space-y-4">

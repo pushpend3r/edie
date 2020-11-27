@@ -9,7 +9,7 @@ const Header = props => {
   const [isMenuOpen, setMenu] = useState(false);
 
   return (
-    <header className="text-primary p-8 pb-0 lg:pr-16 relative flex">
+    <header className="text-primary p-8 pb-0 lg:pr-16 relative flex" data-aos="fade-down">
       <p className="logo z-10">Edie</p>
       <img
         src={cross}

@@ -21,7 +21,7 @@ const User = props => {
 
 const Clients = props => {
   return (
-    <div className="padded space-y-4 lg:space-y-6" id="clients">
+    <div className="padded space-y-4 lg:space-y-6" id="clients" data-aos="fade-up">
       <p className="text-2xl md:text-3xl font-medium md:w-3/4 text-primary">
         “Fast and outstanding results. Edie understands their customer’s needs.
         They have a young and talented team.”

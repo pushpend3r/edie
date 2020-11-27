@@ -46,7 +46,7 @@ const OurWorks = props => {
   ];
 
   return (
-    <section className="space-y-10 padded" id="our_works">
+    <section className="space-y-10 padded" id="our_works" data-aos="fade-left">
       <h2 className="text-2xl md:text-3xl font-medium">
         Good design means <br/> good business
       </h2>
