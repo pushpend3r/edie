@@ -4,7 +4,9 @@ module.exports = {
     // purgeLayersByDefault: true,
   },
   important: true,
-  purge: [],
+  purge: ['./src/**/*.html',
+          './src/**/*.vue',
+          './src/**/*.jsx',],
   theme: {
     fontFamily: {
       sans: ["Poppins", "san-serif"],
