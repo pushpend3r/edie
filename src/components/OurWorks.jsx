@@ -47,8 +47,8 @@ const OurWorks = props => {
 
   return (
     <section className="space-y-10 padded" id="our_works">
-      <h2 className="text-2xl md:text-3xl font-medium" style={{ maxWidth: "350px" }}>
-        Good design means good business
+      <h2 className="text-2xl md:text-3xl font-medium">
+        Good design means <br/> good business
       </h2>
       <div className="pt-8 flex flex-wrap justify-around ourwork-card-wrapper">
         {card.map(c => (

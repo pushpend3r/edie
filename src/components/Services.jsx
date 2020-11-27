@@ -62,8 +62,8 @@ const Services = props => {
 
   return (
     <section className="space-y-10 padded" id="services">
-      <h2 className="text-2xl md:text-3xl font-medium" style={{ maxWidth: "300px" }}>
-        We offer high demand services
+      <h2 className="text-2xl md:text-3xl font-medium">
+        We offer high <br/> demand services
       </h2>
       <div className="flex flex-col lg:justify-between lg:flex-row md:space-y-0 space-y-15 lg:space-x-5">
         {cards.map(card => (

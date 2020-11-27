@@ -45,7 +45,7 @@ const Footer = props => {
                 type="text"
                 name="email"
                 id="email"
-                placeholder="enter email.."
+                placeholder="Email"
                 className="text-black w-8/12"
               />
               <button type="button" className="bg-brand ml-auto">
