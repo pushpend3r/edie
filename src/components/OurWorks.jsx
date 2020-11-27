@@ -46,9 +46,13 @@ const OurWorks = props => {
   ];
 
   return (
-    <section className="space-y-10 padded" id="our_works" data-aos="fade-left">
+    <section
+      className="space-y-10 padded overflow-x-hidden"
+      id="our_works"
+      data-aos="fade-left"
+    >
       <h2 className="text-2xl md:text-3xl font-medium">
-        Good design means <br/> good business
+        Good design means <br /> good business
       </h2>
       <div className="pt-8 flex flex-wrap justify-around ourwork-card-wrapper">
         {card.map(c => (

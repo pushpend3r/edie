@@ -6,7 +6,8 @@ module.exports = {
   important: true,
   purge: ['./src/**/*.html',
           './src/**/*.vue',
-          './src/**/*.jsx',],
+          './src/**/*.jsx',
+  ],
   theme: {
     fontFamily: {
       sans: ["Poppins", "san-serif"],

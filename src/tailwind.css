@@ -30,6 +30,10 @@
   input:focus {
     @apply outline-none;
   }
+
+  body {
+    overflow-x: hidden;
+  }
 }
 
 /* Custom Components */

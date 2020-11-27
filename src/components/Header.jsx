@@ -9,21 +9,33 @@ const Header = props => {
   const [isMenuOpen, setMenu] = useState(false);
 
   return (
-    <header className="text-primary p-8 pb-0 lg:pr-16 relative flex" data-aos="fade-down">
-      <p className="logo z-10">Edie</p>
+    <header
+      className="text-primary p-8 pb-0 lg:pr-16 relative flex z-10"
+      data-aos="fade-down"
+    >
+      <p className="logo">Edie</p>
       <img
         src={cross}
         alt=""
-        className={`w-10 z-10 ml-auto cursor-pointer lg:hidden ${isMenuOpen ? "block" : "hidden"}`}
+        className={`w-10 ml-auto cursor-pointer lg:hidden ${
+          isMenuOpen ? "block" : "hidden"
+        }`}
         onClick={() => setMenu(s => !s)}
       />
       <img
         src={menu}
         alt=""
-        className={`w-10 z-10 ml-auto cursor-pointer lg:hidden ${!isMenuOpen ? "menu" : "hidden"}`}
+        className={`w-10 z-10 ml-auto cursor-pointer lg:hidden ${
+          !isMenuOpen ? "menu" : "hidden"
+        }`}
         onClick={() => setMenu(s => !s)}
       />
-      <ul className={`absolute w-full left-0 bg-white space-y-5 shadow-lg p-8 text-primary font-medium text-base md:text-lg lg:text-xl ${isMenuOpen ? "block" : "hidden"} lg:relative lg:w-auto lg:flex lg:top-0 lg:shadow-none lg:space-y-0 lg:space-x-16 lg:p-0 lg:ml-auto`} style={{top: "5rem"}}>  
+      <ul
+        className={`absolute w-full left-0 bg-white space-y-5 shadow-lg p-8 text-primary font-medium text-base md:text-lg lg:text-xl ${
+          isMenuOpen ? "block" : "hidden"
+        } lg:relative lg:w-auto lg:flex lg:top-0 lg:shadow-none lg:space-y-0 lg:space-x-16 lg:p-0 lg:ml-auto`}
+        style={{ top: "5rem" }}
+      >
         <li className="hover:text-brand">
           <a href="#home">Home</a>
         </li>
